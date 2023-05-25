@@ -8,7 +8,7 @@ from pyfiglet import Figlet
 from time import sleep
 import requests
 
-openai.api_key = "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"
+openai.api_key = "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"
 colorama.init()
 
 
