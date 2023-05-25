@@ -1,0 +1,5 @@
+itertools
+openai
+colorama
+pyfiglet
+time
