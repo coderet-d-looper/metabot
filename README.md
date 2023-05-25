@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media3.giphy.com/headers/GitHub/w8ZJLtJbmuph.gif" alt="Metabot" width="400" height="300" />
+  <img src="https://media3.giphy.com/headers/GitHub/w8ZJLtJbmuph.gif" alt="Metabot" width="800" height="400" />
 </p>
 
 <h1 align="center">Metabot - Your Personal AI Assistant</h1>
