@@ -1,5 +1,4 @@
-itertools
-openai
-colorama
-pyfiglet
-time
+colorama==0.4.4
+openai==0.30.0
+pyfiglet==0.8.post1
+requests==2.26.0
