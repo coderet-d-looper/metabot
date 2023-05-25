@@ -8,6 +8,8 @@ from pyfiglet import Figlet
 from time import sleep
 import requests
 
+colorama.init()
+
 def get_openai_api_key():
     api_key = input("Enter your OpenAI API key: ")
     while not api_key:
