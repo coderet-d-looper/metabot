@@ -8,9 +8,13 @@ from pyfiglet import Figlet
 from time import sleep
 import requests
 
-openai.api_key = "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"
-colorama.init()
+def get_openai_api_key():
+    api_key = input("Enter your OpenAI API key: ")
+    while not api_key:
+        api_key = input("Invalid API key. Please enter your OpenAI API key: ")
+    return api_key
 
+openai.api_key = get_openai_api_key()
 
 def chat_with_ai(message, user_name):
     prompt = f"{user_name}: {message}\nAI:"
